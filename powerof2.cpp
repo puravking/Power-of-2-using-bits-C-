@@ -5,7 +5,6 @@ int bitscheck(int n)
     int c=0;
     while(n!=0)
         {
-            // To check if last bit is 1 or not
             
             if(n&1)
                 {
@@ -18,7 +17,7 @@ int bitscheck(int n)
                     continue;
                 }
         }   
-    return c;//returning number of 1's in the number in binary form
+    return c;
 }
 
 int main()
