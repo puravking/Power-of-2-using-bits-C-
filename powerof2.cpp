@@ -28,7 +28,6 @@ int main()
     {
         int c=bitscheck(n[i]);
         cout<<n[i]<<endl;
-        // Logic:if there is only one 1 bit in the number that means the numebr is a power of 2
         if(c==1)
             cout<<"Power of 2"<<endl;
         else
