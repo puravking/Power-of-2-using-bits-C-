@@ -6,6 +6,7 @@ int bitscheck(int n)
     while(n!=0)
         {
             // To check if last bit is 1 or not
+            
             if(n&1)
                 {
                     c++;
