@@ -9,6 +9,7 @@ int bitscheck(int n)
             if(n&1)
                 {
                     c++;
+                    
                     n=n>>1;
                 }
             else
