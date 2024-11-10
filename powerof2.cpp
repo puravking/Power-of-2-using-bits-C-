@@ -2,7 +2,7 @@
 using namespace std;
 int bitscheck(int n)
 {
-    int c=0;
+    int c=0; 
     while(n!=0)
         { 
             
